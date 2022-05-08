@@ -1,2 +1,6 @@
 # Arduino-Mag
 Low-cost, drone-based magnetometer created using Arduino microcontrollers.
+
+
+# Project Motivation
+Drones are becoming increasingly prevalent in the geophysics industry. Equipment can be mounted on a drone to collect data similar to those of a ground survey, but the drone is more efficient than a human operator, and drones can fly surveys in areas where human traversal is impossible. Magnetometers are a prime candidate to mount on a drone because they record the Earth's passive magnetic field without the need to create a source field. From locating buried orebodies to underground utilities and pipelines, magnetics can help pinpoint the location and depth of objects that are important to everyday life. As is common in the geophysics industry, equipment to perform these surveys can cost up to tens-of-thousands of dollars. Two common industry-grade magnetometers include the Geometrics MagArrow (https://baam.tech/design/product/magarrow-uav-enabled-magnetometer/) and the QuSpin total-field magnetometer (https://quspin.com/qtfm/). The MagArrow is a fully-formed magnetic sensor with GPS and IMU onboard, clocking in at $36,000. The QuSpin magnetometer is just the magnetic sensor and still costs $10,000 for a single unit. 
