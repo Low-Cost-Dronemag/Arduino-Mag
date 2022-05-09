@@ -40,7 +40,9 @@ Negative ->
 
 A 3D-printed housing, figure (), was created to hold the Arduino and the sensors. The housing was mounted on a drone created by students at the Colorado School of Mines. We used this drone/housing combo to fly a survey and test the sensor 
 
-![Alt text](figs/housing.png?raw=true "Title")
+![Arduino and sensor housing](figs/housing.png?raw=true "Arduino and sensor housing")
+
+![Homemade drone](figs/drone.png?raw=true "Homemade drone donated to the Colorado School of Mines Geophysics department")
 
 # Flight test
 
