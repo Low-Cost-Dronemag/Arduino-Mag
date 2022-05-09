@@ -16,15 +16,15 @@ In order to store the recorded data we need some sort of microSD card interface.
 
 # Sensor Wiring
 
-Figure () depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections. 
-DRV425EVM (with the bottom pin as pin 1)
-1 -> 5v
-2 -> gnd
-3 -> A0
+Figure () depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections. <br />
+DRV425EVM (with the bottom pin as pin 1) <br />
+1 -> 5v <br />
+2 -> gnd <br />
+3 -> A0 <br />
 4 -> not used
 
-NEO-6M
-Vcc -> 3.3v
-Rx  -> 18
-Tx  -> 19
-Gnd -> gnd
+NEO-6M <br />
+Vcc -> 3.3v <br />
+Rx  -> 18 <br />
+Tx  -> 19 <br />
+Gnd -> gnd <br />
