@@ -49,7 +49,9 @@ A 3D-printed housing, the first figure below, was created to hold the Arduino an
 
 # Test survey flight
 
-We contucted a survey over an empty field using both our homenmade Arduino magnetometer with the homemade drone, and the MagArrow using a DJI Matrice 300 RTK drone. The first figure below is the arduino-mag data, and the second figure is the production equipment data
+We contucted a survey over an empty field using both our homenmade Arduino magnetometer with the homemade drone, and the MagArrow using a DJI Matrice 300 RTK drone. The first figure below is the arduino-mag data, and the second figure is the production equipment data. Drone flight lines are indicated by the black lines, and two UXO piles are indicated with black dots. We expect to see magnetic highs, or a strong red color near the black dots. The UXO locations were determined using a phone GPS with a error of up to 3 m, so in both cases we are able to see magnetic highs in the expected areas.
 
 ![Arduino Mag](figs/arduinomag.png?raw=true "Data collected with our Arduino magnetometer")
 ![MagArrow](figs/magarrow.png?raw=true "Data collected with the MagArrow")
+
+# Potential improvements
