@@ -50,5 +50,6 @@ A 3D-printed housing, the first figure below, was created to hold the Arduino an
 # Test survey flight
 
 We contucted a survey over an empty field using both our homenmade Arduino magnetometer with the homemade drone, and the MagArrow using a DJI Matrice 300 RTK drone. The first figure below is the arduino-mag data, and the second figure is the production equipment data
+
 ![Arduino Mag](figs/arduinomag.png?raw=true "Data collected with our Arduino magnetometer")
 ![MagArrow](figs/magarrow.png?raw=true "Data collected with the MagArrow")
