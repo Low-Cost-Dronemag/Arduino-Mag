@@ -28,9 +28,10 @@ DRV425EVM (with the bottom pin as pin 1) <br />
 
 NEO-6M <br />
 Vcc -> 3.3v <br />
-Rx  -> 18 <br />
-Tx  -> 19 <br />
-Gnd -> gnd
+Rx  -> pin 18 <br />
+Tx  -> pin 19 <br />
+Gnd -> gnd <br />
+Note that Tx on the sensor should go to Rx on the Arduino, and Rx on the sensor should go to Tx on the Arduino. Tx<->Rx
 
 Battery <br />
 Positive -> Vin <br />
@@ -46,5 +47,8 @@ A 3D-printed housing, the first figure below, was created to hold the Arduino an
 
 ![Homemade drone](figs/drone.png?raw=true "Homemade drone donated to the Colorado School of Mines Geophysics department")
 
-# Flight test
+# Test survey flight
 
+We contucted a survey over an empty field using both our homenmade Arduino magnetometer with the homemade drone, and the MagArrow using a DJI Matrice 300 RTK drone. The first figure below is the arduino-mag data, and the second figure is the production equipment data
+![Arduino Mag](figs/arduinomag.png?raw=true "Data collected with our Arduino magnetometer")
+![MagArrow](figs/magarrow.png?raw=true "Data collected with the MagArrow")
