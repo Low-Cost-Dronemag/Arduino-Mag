@@ -14,9 +14,12 @@ We want our magnetometer to record not just temporally-, but spatially-varying d
 
 In order to store the recorded data we need some sort of microSD card interface. We use the HiLetgo W5100 ethernet shield (https://www.amazon.com/Ethernet-Shield-Network-Expansion-Arduino/dp/B00AXVX5D0), $20.99, which has a built-in microSD slot. The provided code stores magnetic and GPS location/date/time values to a microSD card, which can be transferred to a computer for further use using an SD reader.
 
+A power supply is necessary to run the Arduino. We use an 11.1v battery. The battery alone was too strong and caused issues with the Arduino. Tyical resistors would burn up when set between the battery and the Arduino, so we use a 10 Ohm resistor rated for 100 W to ensure proper power is delivered to the Arduino.
+
 # Sensor Wiring
 
-Figure () depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections. <br />
+Figure () depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections.
+
 DRV425EVM (with the bottom pin as pin 1) <br />
 1 -> 5v <br />
 2 -> gnd <br />
@@ -28,3 +31,14 @@ Vcc -> 3.3v <br />
 Rx  -> 18 <br />
 Tx  -> 19 <br />
 Gnd -> gnd <br />
+
+Battery
+Positive -> Vin
+Negative -> 
+
+# Mounting device on drone
+
+A 3D-printed housing, figure (), was created to hold the Arduino and the sensors. The housing was mounted on a drone created by students at the Colorado School of Mines. We used this drone/housing combo to fly a survey and test the sensor 
+
+# Flight test
+
