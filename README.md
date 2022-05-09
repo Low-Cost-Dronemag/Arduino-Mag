@@ -18,7 +18,7 @@ A power supply is necessary to run the Arduino. We use an 11.1v battery. The bat
 
 # Sensor Wiring
 
-Figure () depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections.
+The figure below depicts the wiring diagram. The ethernet shield is plugged into the top of the Arduino, and we use the following connections.
 
 DRV425EVM (with the bottom pin as pin 1) <br />
 1 -> 5v <br />
@@ -30,15 +30,17 @@ NEO-6M <br />
 Vcc -> 3.3v <br />
 Rx  -> 18 <br />
 Tx  -> 19 <br />
-Gnd -> gnd <br />
+Gnd -> gnd
 
-Battery
-Positive -> Vin
-Negative -> 
+Battery <br />
+Positive -> Vin <br />
+Negative -> gnd
+
+![Circuit diagram](figs/circuit.png?raw=true "Circuit diagram")
 
 # Mounting device on drone
 
-A 3D-printed housing, figure (), was created to hold the Arduino and the sensors. The housing was mounted on a drone created by students at the Colorado School of Mines. We used this drone/housing combo to fly a survey and test the sensor 
+A 3D-printed housing, the first figure below, was created to hold the Arduino and the sensors. The housing was mounted on a drone created by students at the Colorado School of Mines, the second figure below. We used this drone/housing combo to fly a survey and test the sensor against the MagArrow with a commericial drone.
 
 ![Arduino and sensor housing](figs/housing.png?raw=true "Arduino and sensor housing")
 
