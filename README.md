@@ -1,5 +1,5 @@
 # Intro
-This GitHub page details a project done by Brett Bernstein and Cameron Modisett as part of the completion of GPGN590 at the Colorado School of Mines. Herein we discuss the creation of a low-cost, drone-based magnetometer using Arduino microcontrollers. May this page be a reference to those who come after.
+This GitHub page details a project done by Brett Bernstein and Cameron Modisett as part of the completion of GPGN590 at the Colorado School of Mines. Herein we discuss the creation of a low-cost, drone-based magnetometer using Arduino microcontrollers. Code is found in mag/mag.ino. May this page be a reference to those who come after.
 
 
 # Why dronemag?
